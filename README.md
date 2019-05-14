@@ -6,7 +6,7 @@
 ```bash
 export TF_VAR_ghtoken="paste the token here"
 ```
-#### Code:
+#### Code in new-repo.tf:
 ```hcl
 provider "github" {
   token        = "${var.ghtoken}"
