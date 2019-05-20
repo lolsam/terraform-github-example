@@ -4,7 +4,7 @@ There are times while writing code you want to quickly create a Github repositor
 
 1. Install Terraform 
 2. Generate a personal access token if you haven't already.  
-    GitHub > Settings > Developers settings > Personal access token
+    GitHub > Settings > Developers settings > Personal access token  
     Set the token as an environment variable on your shell for secure reasons.
 2. Use the code in new-repo.tf (change "name" and "organization" accordingly)
 3. Terraform apply and verify 
