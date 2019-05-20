@@ -1,8 +1,15 @@
 ### How to create a GitHub repo using Terraform code
 
-- Generate a personal access token if you haven't already.
-  - GitHub > Settings > Developers settings > Personal access token
-- Set the token as an environment variable on your shell for secure reasons.
+There are times while writing code you want to quickly create a Github repository. Doing it everytime from the console, especially for creating multiple repositories, can be mundane. Fortunately, Terraform comes to the rescue and offers Github repo creation through Terraform code. 
+
+1. Install Terraform 
+2. Generate a personal access token if you haven't already.  
+    GitHub > Settings > Developers settings > Personal access token
+    Set the token as an environment variable on your shell for secure reasons.
+2. Use the code in new-repo.tf (change "name" and "organization" accordingly)
+3. Terraform apply and verify 
+
+
 ```bash
 export TF_VAR_ghtoken="paste the token here"
 ```
