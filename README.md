@@ -7,7 +7,7 @@ There are times while writing code you want to quickly create a Github repositor
     GitHub > Settings > Developers settings > Personal access token  
     Set the token as an environment variable on your shell for secure reasons.  
     ```bash
-        export TF_VAR_ghtoken="paste the token here"
+    export TF_VAR_ghtoken="paste the token here"
     ```
 2. Use the code in new-repo.tf (change "name" and "organization" accordingly)
 3. Terraform apply and verify 
