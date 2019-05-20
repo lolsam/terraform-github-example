@@ -1,6 +1,6 @@
 ### How to create a GitHub repo using Terraform code
 
-There are times while writing code you want to quickly create a Github repository. Doing it everytime from the console, especially for creating multiple repositories, can be mundane. Fortunately, Terraform comes to the rescue and offers Github repo creation through Terraform code. 
+There are times while writing code you want to quickly create a Github repository. Doing it everytime from the web browser, especially for creating multiple repositories, can be mundane. Fortunately, Terraform comes to the rescue and offers Github repo creation through Terraform code. 
 
 1. Install Terraform 
 2. Generate a personal access token if you haven't already.  
